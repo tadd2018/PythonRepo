@@ -13,8 +13,8 @@ else:
     print("It's exactly 5")
 
 from datetime import datetime
-DoB = 1989
+DOB = 1989
 current_year = datetime.now().year
-Age = current_year - DoB
+Age = current_year - DOB
 
 print("The age is", Age)
