@@ -27,3 +27,49 @@ Video Timeline! 0:00 - Video Overview
  1:25:29 - New Functionality | GitHub Copilot & OpenAI ChatGPT 
 1:32:05 - What Next?? | Continuing your Python Pandas Learning
 
+# The most necessary pands code 
+Here’s a list of the most necessary and commonly used Pandas data manipulation functions and methods. These are fundamental tools for working with and analyzing data in a DataFrame.
+
+1. Loading Data
+pd.read_csv('file.csv'): Load data from a CSV file.
+pd.read_excel('file.xlsx'): Load data from an Excel file.
+df.to_csv('file.csv'): Save a DataFrame to a CSV file.
+df.to_excel('file.xlsx'): Save a DataFrame to an Excel file.
+2. Inspecting Data
+df.head(): View the first 5 rows of the DataFrame.
+df.tail(): View the last 5 rows.
+df.info(): Summary of the DataFrame including data types and non-null counts.
+df.describe(): Summary statistics for numerical columns.
+df.shape: Get the dimensions of the DataFrame (rows, columns).
+df.columns: Get column names.
+3. Selection and Filtering
+df['column']: Select a column by name.
+df[['column1', 'column2']]: Select multiple columns.
+df.loc[row_index, 'column_name']: Select rows and columns by labels.
+df.iloc[row_index, col_index]: Select rows and columns by positions.
+df[df['column'] == value]: Filter rows based on a condition.
+df[df['column'] > value]: Filter rows with conditions (e.g., greater than).
+4. Sorting and Ranking
+df.sort_values('column'): Sort DataFrame by a column.
+df.sort_values(['column1', 'column2'], ascending=False): Sort by multiple columns.
+df.rank(): Rank the values within a column.
+5. Handling Missing Data
+df.isnull(): Check for missing values.
+df.fillna(value): Fill missing values with a specific value.
+df.dropna(): Drop rows with missing values.
+df.dropna(subset=['column']): Drop rows where specific column(s) have missing values.
+6. Data Transformation
+df['column'].apply(function): Apply a function to each element in a column.
+df['new_column'] = df['column1'] + df['column2']: Create a new column by combining existing ones.
+df['column'].astype('int'): Change the data type of a column.
+pd.to_datetime(df['date_column']): Convert column to datetime format.
+7. Grouping and Aggregating
+df.groupby('column').size(): Count the number of occurrences for each group.
+df.groupby('column')['column2'].sum(): Sum the values in column2 for each group in column1.
+df.groupby('column').agg({'column2': ['sum', 'mean']}): Apply multiple aggregation functions to each group.
+8. Merging and Joining
+pd.merge(df1, df2, on='column'): Merge two DataFrames on a common column.
+pd.concat([df1, df2], axis=0): Concatenate DataFrames vertically (add rows).
+pd.concat([df1, df2], axis=1): Concatenate DataFrames horizontally (add columns).
+9. Reshaping Data
+`df
