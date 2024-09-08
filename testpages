@@ -1,1 +1,29 @@
 this note pages 
+Python Note
+Video Timeline! 0:00 - Video Overview 
+1:11 - Getting Started with Python Pandas | Google Colab 
+1:21 - Getting Started with Python Pandas | Local Environment Setup (Cloning code, using virtual environment, VS Code
+) 3:58 - Intro to Dataframes | Creating DataFrames, Index/Columns, Basic Functionality 8:25 - Loading in DataFrames from Files (CSV, Excel, Parquet, etc.) 
+13:42 - Accessing Data | .head() .tail() .sample() 
+15:28 - Accessing Data | .loc() .iloc() 
+19:20 - Setting DataFrame Values w/ loc() & iloc() 
+20:20 - Accessing Single Values | .at() .iat()
+ 21:11 - Accessing Data | Grab Columns, Sort Values, Ascending/Descending 
+23:01 - Iterating over a DataFrame (df) with a For Loop | df.iterrows() 
+24:12 - Filtering Data | Syntax Options, Numeric Values, Multiple Conditions 
+27:58 - Filtering Data | String Operations, Regular Expressions (Regex)
+ 33:09 - Filtering Data | Query Functions 
+34:20 - Adding / Removing Columns | Basics, Conditional Values, Math Operations, Renaming Columns 
+41:40 - Adding / Removing Columns | String Operations, Datetime (pd.to_datetime) Operations 46:38 - Saving our Updated DataFrame (df.to_csv, df.to_excel, df.to_parquet, etc) 
+47:14 - Adding / Removing Columns | Using Lambda & Custom Functions w/ .apply() 
+50:42 - Merging & Concatenating Data | pd.merge(), pd.concat(), types of joins
+ 58:33 - Handling Null Values (NaNs) | .fillna() .interpolate() .dropna() .isna() .notna()
+ 1:04:05 - Aggregating Data | value_counts() 
+1:05:47 - Aggregating Data | Using Groupby - groupby() .sum() .mean() .agg() 
+1:08:24 - Aggregating Data | Pivot Tables
+ 1:10:28 - Groupby combined with Datetime Operations 
+1:14:38 - Advanced Functionality | .shift() .rank() .cumsum() .rolling() 
+1:22:10 - New Functionality | Pandas 1.0 vs Pandas 2.0 – pyarrow
+ 1:25:29 - New Functionality | GitHub Copilot & OpenAI ChatGPT 
+1:32:05 - What Next?? | Continuing your Python Pandas Learning
+
