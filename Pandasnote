@@ -72,4 +72,4 @@ pd.merge(df1, df2, on='column'): Merge two DataFrames on a common column.
 pd.concat([df1, df2], axis=0): Concatenate DataFrames vertically (add rows).
 pd.concat([df1, df2], axis=1): Concatenate DataFrames horizontally (add columns).
 9. Reshaping Data
-`df
+
