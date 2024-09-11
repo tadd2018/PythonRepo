@@ -1,6 +1,6 @@
 
 a = 2
-b = 5
+b = 2
 pro = a * b
 
 print("The product of the numbers is", pro)
