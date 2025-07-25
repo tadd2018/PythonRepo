@@ -1,4 +1,3 @@
-# This script calculates the age of a person based on their date of birth (DOB).
 from datetime import datetime
 
 # Ask user to enter DOB in YYYY-MM-DD format
@@ -18,3 +17,11 @@ if (today.month, today.day) < (dob.month, dob.day):
     age -= 1
 
 print("Your age is:", age)
+
+# Categorize based on age
+if age < 18:
+    print("You are a minor.")
+elif age <= 40:
+    print("You are an adult.")
+else:
+    print("You are middle-aged.")
