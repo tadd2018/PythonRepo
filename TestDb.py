@@ -70,3 +70,4 @@ Edit
 df.describe(include='all')  # Summary of all columns
 df.nunique()                # Number of unique values per column
 df.corr()                   # Correlation matri"""
+Best viedio: https://www.youtube.com/watch?v=2uvysYbKdjM
