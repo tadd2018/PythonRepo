@@ -26,7 +26,6 @@ Video Timeline! 0:00 - Video Overview
 1:22:10 - New Functionality | Pandas 1.0 vs Pandas 2.0 – pyarrow
  1:25:29 - New Functionality | GitHub Copilot & OpenAI ChatGPT 
 1:32:05 - What Next?? | Continuing your Python Pandas Learning
-
 # The most necessary pands code 
 Here’s a list of the most necessary and commonly used Pandas data manipulation functions and methods. These are fundamental tools for working with and analyzing data in a DataFrame.
 
